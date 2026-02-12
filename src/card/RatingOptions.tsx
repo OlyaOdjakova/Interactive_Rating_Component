@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./card/card.module.css";
+import styles from "./card.module.css";
 import RatingButton from "./rating-button/RatingButton";
 
 interface RatingOptionsProps {

@@ -2,8 +2,8 @@ import { useState } from "react";
 import styles from "./card.module.css";
 import starImage from "../images/icon-star.svg";
 import thankYouImage from "../images/illustration-thank-you.svg";
-import CardContent from "../typography/CardContent";
-import RatingOptions from "../RatingOptions";
+import CardContent from "./card_content/CardContent";
+import RatingOptions from "./RatingOptions";
 
 const Card = () => {
   const [selectedRatingNumber, setSelectedRatingNumber] = useState("0");
