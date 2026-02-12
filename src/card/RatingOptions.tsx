@@ -20,6 +20,7 @@ const RatingOptions: React.FC<RatingOptionsProps> = ({
       {ratings.map((rating, index) => {
         return (
           <RatingButton
+            key={index}
             style={{
               backgroundColor:
                 checkId === index ? "hsl(25, 97%, 53%)" : "#384656",
