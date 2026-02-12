@@ -1,0 +1,13 @@
+.headerStyle {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+}
+
+.paragraphStyle {
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+}
+
