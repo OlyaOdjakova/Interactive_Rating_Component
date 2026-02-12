@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bdde4ac8-bdc6-4998-abcc-3313e9ceab81" name="Changes" comment="Remove idea folder">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/App.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Card/card.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Card/card.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/card/card.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/icon-star.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/icon-star.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/illustration-thank-you.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/illustration-thank-you.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Typography/typography.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Typography/typography.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/typography/typography.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rating-button/rating-button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rating-button/rating-button.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/rating-button/rating-button.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;OlyaOdjakova&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/OlyaOdjakova/Interactive_Rating_Component.git&quot;,
+    &quot;accountId&quot;: &quot;d01f172c-b87d-4b51-acf5-6ae6346096fe&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="39Y5ZMSi2tNDrhFE1bNYFzc8uzI" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Olya/WebstormProjects/Interactive_Rating_Component&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\Olya\\WebstormProjects\\Interactive_Rating_Component\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Olya\\WebstormProjects\\Interactive_Rating_Component\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Olya\WebstormProjects\Interactive_Rating_Component\src\app" />
+      <recent name="C:\Users\Olya\WebstormProjects\Interactive_Rating_Component" />
+      <recent name="C:\Users\Olya\WebstormProjects\Interactive_Rating_Component\interactive-rating-component-main" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.30387.83" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bdde4ac8-bdc6-4998-abcc-3313e9ceab81" name="Changes" comment="" />
+      <created>1770860217952</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1770860217952</updated>
+      <workItem from="1770860219179" duration="662000" />
+      <workItem from="1770899780024" duration="4208000" />
+    </task>
+    <task id="LOCAL-00001" summary="Remove not needed files">
+      <option name="closed" value="true" />
+      <created>1770904928426</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1770904928426</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Modify the folder structure and remove unnecessary files">
+      <option name="closed" value="true" />
+      <created>1770905331244</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1770905331244</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Setup and install typescript">
+      <option name="closed" value="true" />
+      <created>1770905878117</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1770905878117</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Remove idea folder">
+      <option name="closed" value="true" />
+      <created>1770905902826</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1770905902826</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/app/App.js" />
+        <option value="$PROJECT_DIR$/src/card/card.js" />
+        <option value="$PROJECT_DIR$/src/typography/typography.js" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Remove not needed files" />
+    <MESSAGE value="Modify the folder structure and remove unnecessary files" />
+    <MESSAGE value="Setup and install typescript" />
+    <MESSAGE value="Remove idea folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove idea folder" />
+  </component>
+</project>
