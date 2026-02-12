@@ -12,10 +12,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "interactive-rating-component-main/node_modules/.bin/react-scripts start",
-    "build": "interactive-rating-component-main/node_modules/.bin/react-scripts build",
-    "test": "interactive-rating-component-main/node_modules/.bin/react-scripts test",
-    "eject": "interactive-rating-component-main/node_modules/.bin/react-scripts eject"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -36,6 +36,7 @@
     ]
   },
   "devDependencies": {
-    "prettier": "^2.6.2"
+    "prettier": "^2.6.2",
+    "typescript": "^4.9.5"
   }
 }
