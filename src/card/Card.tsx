@@ -2,48 +2,27 @@ import { useState } from "react";
 import styles from "./card.module.css";
 import starImage from "../images/icon-star.svg";
 import thankYouImage from "../images/illustration-thank-you.svg";
-import RatingButton from "../rating-button/RatingButton";
-import Typography from "../typography/Typography";
+import CardContent from "../typography/CardContent";
+import RatingOptions from "../RatingOptions";
 
-export default function Card() {
-  //handleClick shows and hides the first and second card
-  const [hideRating, setHideRating] = useState(true);
-
-  function handleClick() {
-    setHideRating(!hideRating);
-  }
-
+const Card = () => {
   //setRatingNumber shows which rating button was clicked
   const [ratingNumber, setRatingNumber] = useState("0");
+  const [checkId, setCheckId] = useState();
+  const ratings: string[] = ["1", "2", "3", "4", "5"];
+  //onSubmitRating shows and hides the first and second card
+  const [hideRating, setHideRating] = useState(true);
 
-  const [checkId, setCheckId] = useState(null);
+  const onHandleSelectedRatingNumber = (rating: string) => {
+    setRatingNumber(rating);
+  };
 
-  let ratings = ["1", "2", "3", "4", "5"];
+  const onHandleSelectedId = (index: any) => {
+    setCheckId(index);
+  };
 
-  let ratingComponents;
-
-  {
-    ratingComponents = ratings.map((rating, index) => {
-      return (
-        <RatingButton
-          style={{
-            backgroundColor:
-              checkId === index ? "hsl(25, 97%, 53%)" : "#384656",
-            borderRadius: "25px",
-            padding: "14px 20px",
-            color: checkId === index ? "white" : "hsl(217, 12%, 63%)",
-            border: "transparent",
-            fontFamily: "'Overpass', sans-serif",
-            fontWeight: "700",
-          }}
-          ratingNumber={rating}
-          onClick={() => {
-            setRatingNumber(rating);
-            setCheckId(index);
-          }}
-        />
-      );
-    });
+  function onSubmitRating() {
+    setHideRating(!hideRating);
   }
 
   return (
@@ -55,15 +34,20 @@ export default function Card() {
               <img src={starImage} alt="star image" />
             </div>
 
-            <Typography
+            <CardContent
               title="How did we do?"
               content="Please let us know how we did with your support request. All feedback is appreciated
                             to help us improve our offering!"
             />
 
-            <div className={styles.ratingButtonsStyle}>{ratingComponents}</div>
+            <RatingOptions
+              ratings={ratings}
+              checkId={checkId}
+              onHandleSelectedRatingNumber={onHandleSelectedRatingNumber}
+              onHandleSelectedId={onHandleSelectedId}
+            />
 
-            <button onClick={handleClick} className={styles.buttonStyle}>
+            <button onClick={onSubmitRating} className={styles.buttonStyle}>
               SUBMIT
             </button>
           </div>
@@ -75,7 +59,7 @@ export default function Card() {
               You selected <span>{ratingNumber}</span> out of 5
             </div>
 
-            <Typography
+            <CardContent
               title="Thank you!"
               content="We appreciate you taking the time to give a rating. If you ever need
               more support, don't hesitate to get in touch!"
@@ -85,4 +69,6 @@ export default function Card() {
       </div>
     </>
   );
-}
+};
+
+export default Card;
