@@ -1,6 +1,6 @@
 # Interactive Rating Component
 
-A responsive web component was built as a challenge from frontendmentor.io:
+A responsive web component built as a challenge from frontendmentor.io:
 
 https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI
 
