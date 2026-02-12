@@ -1,7 +1,7 @@
 import {useState} from "react";
 import Typography from "../Typography/typography";
 import RatingButton from "../rating-button/rating-button";
-import styles from "../Card/card.module.css";
+import styles from "./card.module.css";
 import starImage from "../Images/icon-star.svg";
 import thankYouImage from "../Images/illustration-thank-you.svg";
 

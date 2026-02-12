@@ -1,4 +1,4 @@
-import styles from "../Typography/typography.module.css";
+import styles from "./typography.module.css";
 
 export default function Typography({ title, content }) {
   return (
