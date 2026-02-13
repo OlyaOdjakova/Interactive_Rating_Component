@@ -1,4 +1,4 @@
-import styles from "./typography.module.css";
+import styles from "./cardContent.module.css";
 import React from "react";
 
 interface CardContentProps {

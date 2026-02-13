@@ -1,20 +1,20 @@
 import React from "react";
 import styles from "./card.module.css";
-import RatingButton from "./rating-button/RatingButton";
+import RatingButton from "./rating_button/RatingButton";
 
 interface RatingOptionsProps {
-  ratings: string[];
   checkId: any;
   onHandleSelectedRatingNumber: (rating: string) => void;
   onHandleSelectedId: (index: any) => void;
 }
 
 const RatingOptions: React.FC<RatingOptionsProps> = ({
-  ratings,
   checkId,
   onHandleSelectedRatingNumber,
   onHandleSelectedId,
 }) => {
+  const ratings: string[] = ["1", "2", "3", "4", "5"];
+
   return (
     <div className={styles.ratingButtonsStyle}>
       {ratings.map((rating, index) => {

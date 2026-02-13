@@ -1,4 +1,4 @@
-import styles from "./rating-button.module.css";
+import styles from "./ratingButton.module.css";
 import React from "react";
 
 interface RatingButtonProps {

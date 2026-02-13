@@ -29,3 +29,5 @@ yarn-error.log*
 *.xd
 .DS_Store
 .prettierignore
+.vercel
+.env*.local
